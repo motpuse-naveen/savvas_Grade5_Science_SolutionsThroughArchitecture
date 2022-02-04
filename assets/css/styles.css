@@ -547,6 +547,18 @@ ul.small-bullet li {
     margin: 10px 0px;
 }
 
+ul.small-dashed {
+    list-style-type: none;
+}
+
+ul.small-dashed > li {
+    text-indent: 53px;
+  }
+  ul.small-dashed > li:before {
+    content: "- ";
+    text-indent: -5px;
+  }
+
 table.table-style1 {
     border: 0.5px solid #000000;
     font-family: 'poppins-light';
