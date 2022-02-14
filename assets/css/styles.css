@@ -542,22 +542,22 @@ ul.small-bullet {
     margin-left: 30px;
 }
 
-ul.small-bullet li {
+ul.small-bullet > li {
     list-style-type: disc;
     margin: 10px 0px;
 }
 
 ul.small-dashed {
     list-style-type: none;
+    padding-left: 30px;
 }
-
-ul.small-dashed > li {
-    text-indent: 53px;
-  }
-  ul.small-dashed > li:before {
-    content: "- ";
-    text-indent: -5px;
-  }
+ul.small-dashed > li{
+    margin: 10px 0px;
+}
+ul.small-dashed > li:before {
+content: "-  ";
+margin-left: -13px;
+}
 
 table.table-style1 {
     border: 0.5px solid #000000;
